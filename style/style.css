@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+:root {
+    --nav-color: #E3FFFF;
+    --nav-text: black;
+    --primary-color: #FFD3CC;
+    --secondary-color: #abc4aa;
+    --hover-color: #FF8873;
+  }
+
+body {
+    background-color: var(--primary-color);
+}
+
+.container{
+    background-color: var(--nav-color);
+    font-size: 1.2rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    height: 70px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px var(--hover-color);
+}
+.center-content{
+    font-size: 2.0rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.container .navbar{
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    font-family: "Life Savers", sans-serif;
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 25%;
+    background-color: white;
+}
+  
+.container .navbar ul li {
+    padding: 10px;
+    margin: 20px;
+}
+
+.navbar a{
+    color: var(--nav-text);
+    font-weight: bolder;
+    text-decoration: none;
+}
+ 
+.navbar ul li:hover {
+    background-color: black;
+    color: var(--primary-color);
+}
+  
+#heart-icon{
+    height: 50px;
+    width: auto;
+    
+}
+
