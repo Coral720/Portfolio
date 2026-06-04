@@ -23,10 +23,11 @@ body {
 }
 .center-content{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    margin: auto;
+    padding: 10px;
+    margin: 10px;
     font-size: 2.0rem;
     font-family: "Life Savers", sans-serif;
     
@@ -82,7 +83,9 @@ body {
 
 .m116{
     color: white;
+    font-family: "Life Savers", sans-serif;
     padding: 40px 0;
+    margin: 10px;
     left: 50%;
     font-weight: 800;
     font-size: 20px;
@@ -92,4 +95,26 @@ body {
 .m116 .letter{
     display: inline-block;
     line-height: 1em;
+}
+
+.profile-image {
+    border: 5px solid white;
+    border-radius: 500px;
+    margin: 20px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+.vl {
+    border-left: 6px solid white;
+    margin: 10px;
+    height: 700px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    
 }
